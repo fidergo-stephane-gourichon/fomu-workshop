@@ -13,7 +13,7 @@ SECTIONS
 		*(.text.start)
 		*(.text .stub .text.* .gnu.linkonce.t.*)
 		_etext = .;
-	} > rom
+	} > sram
 
 	.rodata :
 	{
